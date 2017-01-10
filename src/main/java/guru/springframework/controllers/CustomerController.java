@@ -28,6 +28,7 @@ public class CustomerController {
 		return "customer/list";
 	}
 	
+	
 	@RequestMapping("/show/{id}")
     public String getCustomer(@PathVariable Integer id, Model model){
 
